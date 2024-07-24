@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Body, Quicksand, sans-serif;
+}
+header{
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0 1rem 0;
+
+}
+header nav .upperNav button{
+
+    background-color: #213d77;
+    padding: 0.2rem 0.5rem 0.1rem 0.2em;
+    color: #ffff;
+    font-weight: 700;
+    font-size: 1rem;
+
+}
+nav{
+    display: flex;
+    flex-direction: column;
+}
+.upperNav{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+}
