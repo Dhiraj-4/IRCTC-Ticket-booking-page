@@ -3,9 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Body, Quicksand, sans-serif;
+    
+}
+button{
+    border: none;
 }
 header{
-    font-size: 0.9rem;
+    font-size: 0.88rem;
     display: flex;
     justify-content: space-around;
     padding: 1rem 0 1rem 0;
@@ -14,11 +18,18 @@ header{
 header nav .upperNav button{
 
     background-color: #213d77;
-    padding: 0.3rem 0.6rem 0.2rem 0.3em;
+    padding: 0.4rem 0.6rem 0.3rem 0.5em;
     color: #ffff;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 0.9rem;
+    cursor: pointer;
 
+}
+header nav .upperNav .alerts{
+    background-color: #dedede;
+    color: #161b1b;
+    padding: 0.5rem 1rem 0.3rem 1rem;
+    border: none;
 }
 nav{
     display: flex;
@@ -35,13 +46,22 @@ ul{
     display: flex;
     list-style-type: none;
     gap: 2rem;
+    
+}
+ul li{
+    cursor: pointer;
 }
 .lowerNav{
-    margin-top: 1rem;
+    margin-top: 0.75rem;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    margin-left: 2rem;
+}
+.lowerNav i{
+    opacity: 0.5;
+    cursor: pointer;
 }
 .lowerNav ul{
     gap: 1rem;
@@ -52,4 +72,60 @@ ul{
     padding: 0.4rem 0.7rem 0.3rem 0.7rem;
     font-weight: 700;
     font-size: 0.9rem;
+    cursor: pointer;
 }
+
+/* input/homeBanner */
+
+.ticketBookingBG{
+    background-image: url(https://www.irctc.co.in/nget/home_page_banner1.e6749c3d9698d1ac7608.jpg);
+    background-size: cover;
+    height: 37.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.ticketBookingBG .bookTicketCard{
+    background-color: #ffffff;
+    margin: 3rem 0 0 7rem;
+    width:35rem;
+}
+
+.ticketBookingBG .bookTicketCard button{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #213d77;
+    font-size: 0.9rem;
+    padding: 0 0.5rem 0 0.875rem;
+    cursor: pointer;
+    font-weight: 700;
+    color: #ffff;
+    width: 100%;
+}
+
+.ticketBookingBG .bookTicketCard .buttonTop button .chartImg{
+
+    position: relative;
+    left: -2rem;
+}
+.buttonTop {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.ticketBookingBG .bookTicketCard .tittle{
+
+    padding: auto;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #334979;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
