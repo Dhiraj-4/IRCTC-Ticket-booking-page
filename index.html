@@ -25,13 +25,14 @@
 
                 <button class="alerts">ALERTS</button>
 
-                <strong>24-Jul-2024 [11:18:57]</strong>
+                <div class="dateANDtime">
 
-                <strong>A<sup>-</sup></strong>
-                <strong>A</strong>
-                <strong>A<sup>+</sup></strong>
-
-                <strong>हिंदी</strong>
+                    <strong>24-Jul-2024 [11:18:57]</strong>
+                    <strong>A-</strong>
+                    <strong>A</strong>
+                    <strong>A+</strong>
+                    <strong>हिंदी</strong>
+                </div>
             </div>
             <div class="lowerNav">
 
@@ -61,7 +62,7 @@
         <div class="bookTicketCard">
 
             <div class="buttonTop">
-                <button><img class="chartImg" src="https://www.irctc.co.in/nget/assets/images/icons/pnr.png" alt="PNR">PNR STATUS</button>
+                <button><img class="checkImg" src="https://www.irctc.co.in/nget/assets/images/icons/pnr.png" alt="PNR">PNR STATUS</button>
                 <button><img class="chartImg" src="https://www.irctc.co.in/nget/assets/images/icons/chart.png" alt="CHART">CHARTS / VACANCY</button>
             </div>
 
@@ -71,34 +72,49 @@
 
 
                 <div class="formTOgenral">
-                    <input type="text">
-                    <input type="text">
-                    <input type="text">
+                    <div class="inputone"><i _ngcontent-apc-c67 class="fa fa-location-arrow" style="margin: 3px 0px 0px 8px;"></i><input type="text" placeholder="From"></div>
+                    <div class="inputtwo"><i _ngcontent-apc-c67 class="fa fa-calendar" style="margin: 3px 0px 0px 8px;"></i><input type="text" placeholder="DD/MM/YYYY"></div>
+                    <div class="inputthree"><i _ngcontent-apc-c67 class="fa fa-map-marker" style="margin: 3px 0px 0px 8px;"></i><input type="text" placeholder="To"></div>
+                    <div class="inputfour"><i _ngcontent-apc-c67 class="fa fa-briefcase" style="margin: 3px 0px 0px 8px;"></i><i class="fa-duotone fa-solid fa-chevron-down"></i><input type="text" placeholder="All Classes"></div>
+                    <div class="inputfive"><i _ngcontent-apc-c67 class="fa fa-briefcase" style="margin: 3px 0px 0px 8px;"></i><i class="fa-duotone fa-solid fa-chevron-down"></i><input type="text" placeholder="GENERAL"></div>
                 </div>
 
-                <div class="dateClass">
-                    <input type="text">
-                    <input type="text">
-                </div>
 
-                <div class="checkBox">
-                    <input type="checkbox">
-                    <input type="checkbox">
-                    <input type="checkbox">
-                    <input type="checkbox">
-                </div>
+                <div class="checkBoxs">
+                    <div>
+                        <div>                    <input type="checkbox" id="person"> <label for="person">Person With Disability  Concession</label>
+                        </div>                    
+        
+                        <div>                    <input type="checkbox" id="flexible"> <label for="flexible">Flexible With Date</label>
+                        </div>
+                    </div>
 
+                    <div>
+                        <div>                    <input type="checkbox" id="Train"> <label for="Train">Train with Avaiable Berth</label>
+                        </div>  
+    
+                        <div>                    <input type="checkbox" id="railway"> <label for="railway">Railway Pass Concession</label>
+                        </div>
+                    </div>                
+                </div>
             </div>
 
             <div class="buttonBottom">
 
                 <button>Search</button>
                 <button>Easy Booking on AskDISHA</button>
+
             </div>
         </div>
 
-        <div>
+        <div class="PADitems">
             <a href="#">Please click here for Empanelment for PAD items for Catering.</a>
+        </div>
+
+        <div class="Indian">
+            <h1>INDIAN RAILWAYS</h1>
+
+            <PRE>Safety | Security | Punctuality</PRE>
         </div>
     </section>
 </body>
